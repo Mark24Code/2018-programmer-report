@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdn.llscdn.com/Gilroy-font.css">
+    <title>Static Template</title>
+    <style type="text/css">
+     @font-face {
+      font-family: xing; /*这里是说明调用来的字体名字*/
+      src: url('./xing.ttf'); /*这里是字体文件路径*/
+      }
+     @font-face {
+      font-family: xing2; /*这里是说明调用来的字体名字*/
+      src: url('./xing2.ttf'); /*这里是字体文件路径*/
+      }
+      body {
+        background: url(./bg.png) no-repeat;
+        color: #ffffff;
+        background-size: cover;
+        font-family: xing2;
+        text-shadow: 1px 1px 1px #615959;
+        padding: 0;
+        margin: 0;
+      }
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.36);
+        font-weight: bold;
+
+      }
+      p {
+        font-size: 22px;
+        margin: 8px;
+      }
+      .num {
+        color: #91d5ff;
+        font-size: 24px;
+      }
+      .chr {
+        color: #ffd666;
+      }
+      .date {
+        font-size: 26px;
+        color: #ff7875;
+      }
+      .num ,.chr, .date {
+        font-family: 'Gilroy';
+        margin: 0 4px;
+        font-weight: bold;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <section class="cont">
+      <h1>2018年度报告</h1>
+      <p>这一年里，你一共写了<span class="num">34</span>万行代码</p>
+      <p>你热衷于使用组合键<span class="chr">⌘+C</span>以及<span class="chr">⌘+V</span></p>
+      <p>喜欢和同事一起讨论你们两个都不懂的技术知识</p>
+      <p>你热爱学习</p>
+      <p>每天早上你都会打开<span class="chr">GitHub</span>假装了解最新项目</p>
+      <p><span class="num">2018</span>年，你说的最多的几句话是</p>
+      <p>这个需求做不了 </p>
+      <p>在我手机上是好的啊 </p>
+      <p>你清下缓存试试 </p>
+      <p><span class="date">4.28</span>大概是很特别的一天 </p>
+      <p>这一天里 </p>
+      <p>你是用了<span class="num">548</span>次复制和粘贴的功能</p>
+      <p>提交了<span class="num">549</span>行代码</p>
+      <p><span class="date">5.02</span>这一天你睡得很晚 </p>
+      <p>凌晨<span class="num">3:34</span>才把自己的<span class="chr">Bug</span>清空</p>
+      <p>然后在朋友圈里发了一句装逼的话</p>
+      <p>我的代码从来就没有<span class="chr">Bug</span></p>
+      <p>那一刻你好像感觉自己也成为了一个大佬</p>
+      <p><span class="num">2018</span>年一年的时间里</p>
+      <p>你使用了<span class="num">5</span>瓶霸王洗发露</p>
+      <p>发际线上升了<span class="num">4</span>厘米</p>
+      <p>各种颜色的格子衫挂满了你的衣柜</p>
+      <p><span class="num">2019</span>年</p>
+      <p><span class="chr">Bug</span>也会一直陪在你身边</p>
+    </section>
+  </body>
+</html>
